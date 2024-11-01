@@ -33,4 +33,4 @@ jobs:
         run: ls -ltra
 
       - name: display hello-txt contents
-        run: cat ./artifact/hello.txt
+        run: cat ./artifacts/hello.txt
