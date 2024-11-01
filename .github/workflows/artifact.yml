@@ -27,7 +27,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: hello-artifact
-          path: ./artifacts
+          path: ./artifacts/hello.txt
 
       - name: list files
         run: ls -ltra
